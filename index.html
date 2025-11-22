@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Coding Club</title>
+    <!-- <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .nav-link.active {
+            color: #0056b3 !important;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 5px;
+            font-weight: 500;
+        }
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./M1_prjt.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id ="sectionMain_Div">
+    <div class="The_main_container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" id="Nav_head"  href="#">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvZGUteG1sLWljb24gbHVjaWRlLWNvZGUteG1sIj48cGF0aCBkPSJtMTggMTYgNC00LTQtNCIvPjxwYXRoIGQ9Im02IDgtNCA0IDQgNCIvPjxwYXRoIGQ9Im0xNC41IDQtNSAxNiIvPjwvc3ZnPg==" class="img1" > CSE Coding Club</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link " href="" onclick="display('sectionMain_Div)">Home</a>
+            <p  class="nav-link " href="" onclick="display('sectionevents')">Events </p>
+            <a class="nav-link" href="#" onclick="display('sectionAboutUs')">About Us</a>
+          </div>
+      </div>
+    </nav>
+    <div id="homeSection" class="section-content">
+    <div class="div1 d-flex justify-content-center align-items-center flex-column">
+        <h1 class="heading_1">CSE Coding Club</h1>
+        <p class="para_1">Code. Create. Collaborate.</p>
+        <div class="button_1">
+            <button class="btn btn-primary button_join_us">Join us now</button>
+        </div>
+    </div>
+    <article >
+        <div class="Mid_container">
+        <section>
+             <section>
+                    <div class="About_us_div">
+                        <h1> About Us </h1>
+                        <p>The CSE Coding Club is a vibrant community of passionate programmers, innovators, and tech enthusiasts.<br> Our mission is to foster a collaborative environment where students can learn, create, and excel in the world of computer science and software development.
+                        </p>
+                    </div>
+            </section>
+            <section>
+                <div class="Card_s d-flex flex-row justify-content-center">
+                    <div class="card_1">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvZGUteG1sLWljb24gbHVjaWRlLWNvZGUteG1sIj48cGF0aCBkPSJtMTggMTYgNC00LTQtNCIvPjxwYXRoIGQ9Im02IDgtNCA0IDQgNCIvPjxwYXRoIGQ9Im0xNC41IDQtNSAxNiIvPjwvc3ZnPg==" class="Img_s">
+                        <h1 class="Heading_card_1">Learn & Grow</h1> <br> 
+                        <p class="card_para">Regular workshops and coding sessions to enhance your programming skills and learn new technologies.</p>
+                    </div>
+                    <div class="card_1">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXVzZXJzLWljb24gbHVjaWRlLXVzZXJzIj48cGF0aCBkPSJNMTYgMjF2LTJhNCA0IDAgMCAwLTQtNEg2YTQgNCAwIDAgMC00IDR2MiIvPjxwYXRoIGQ9Ik0xNiAzLjEyOGE0IDQgMCAwIDEgMCA3Ljc0NCIvPjxwYXRoIGQ9Ik0yMiAyMXYtMmE0IDQgMCAwIDAtMy0zLjg3Ii8+PGNpcmNsZSBjeD0iOSIgY3k9IjciIHI9IjQiLz48L3N2Zz4=" class="Img_s">
+                        <h1 class="Heading_card_1">Collaborate</h1><br>
+                        <p class="card_para">Work with passionate peers on exciting projects and build lasting connections in the tech community.</p>
+                    </div>
+                    <div class="card_1">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWxpZ2h0YnVsYi1pY29uIGx1Y2lkZS1saWdodGJ1bGIiPjxwYXRoIGQ9Ik0xNSAxNGMuMi0xIC43LTEuNyAxLjUtMi41IDEtLjkgMS41LTIuMiAxLjUtMy41QTYgNiAwIDAgMCA2IDhjMCAxIC4yIDIuMiAxLjUgMy41LjcuNyAxLjMgMS41IDEuNSAyLjUiLz48cGF0aCBkPSJNOSAxOGg2Ii8+PHBhdGggZD0iTTEwIDIyaDQiLz48L3N2Zz4=" class="Img_s">
+                        <h1 class="Heading_card_1">Innovate</h1><br>
+                        <p class="card_para">Turn your ideas into reality through hackathons, competitions, and innovative project challenges.</p>
+                    </div>
+                    <div class="card_1">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRyb3BoeS1pY29uIGx1Y2lkZS10cm9waHkiPjxwYXRoIGQ9Ik0xMCAxNC42NnYxLjYyNmEyIDIgMCAwIDEtLjk3NiAxLjY5NkE1IDUgMCAwIDAgNyAyMS45NzgiLz48cGF0aCBkPSJNMTQgMTQuNjZ2MS42MjZhMiAyIDAgMCAwIC45NzYgMS42OTZBNSA1IDAgMCAxIDE3IDIxLjk3OCIvPjxwYXRoIGQ9Ik0xOCA5aDEuNWExIDEgMCAwIDAgMC01SDE4Ii8+PHBhdGggZD0iTTQgMjJoMTYiLz48cGF0aCBkPSJNNiA5YTYgNiAwIDAgMCAxMiAwVjNhMSAxIDAgMCAwLTEtMUg3YTEgMSAwIDAgMC0xIDF6Ii8+PHBhdGggZD0iTTYgOUg0LjVhMSAxIDAgMCAxIDAtNUg2Ii8+PC9zdmc+" class="Img_s">
+                        <h1 class="Heading_card_1">Compete</h1><br>
+                        <p class="card_para">Participate in coding contests, hackathons, and challenges to test your skills and win prizes.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </article>
+    <section class="End_section d-flex flex-row justify-content-center">
+            <div class="Card_of_End_1">
+                <h1 class="head_for_End_card">Our Vision</h1>
+                <p class="para_for_end_cards">To be the leading platform for aspiring developers, creating a culture of innovation, continuous learning, and technological excellence that shapes the future of computer science.</p>
+             </div>
+            <div class="Card_of_End_1">
+                <h1 class="head_for_End_card head_for_End_card_2">Our Mission</h1>
+                <p class="para_for_end_cards">To empower students with cutting-edge programming skills, provide opportunities for hands-on experience, and build a supportive community that encourages collaboration and creativity.</p>
+            </div>
+    </section>
+    <section>
+        <div class="div_last">
+            <h1 class="Heading_last">Ready to Start Your Journey?</h1>
+            <p class="para_last">Join our community of passionate developers and be part of something<br> amazing.Participate in events, collaborate on projects, and grow your skills.</p>
+            <button class="btn btn-primary">Become a Member</button>
+        </div>
+    </section>
+    </div>
+    </div>
+
+<!-- <div id="eventsSection">
+    <div class="In_events_con">
+        <h1> Heyyy</h1>
+    </div>
+</div> -->
+    <footer class="footer">    
+            <p>&copy; 2024 CSE Coding Club. All rights reserved.</p> 
+    </footer>
+</div>
+<div id="sectionevents" >
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" id="Nav_head"  href="#">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvZGUteG1sLWljb24gbHVjaWRlLWNvZGUteG1sIj48cGF0aCBkPSJtMTggMTYgNC00LTQtNCIvPjxwYXRoIGQ9Im02IDgtNCA0IDQgNCIvPjxwYXRoIGQ9Im0xNC41IDQtNSAxNiIvPjwvc3ZnPg==" class="img1" > CSE Coding Club</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link " href="" onclick="display('sectionMain_Div)">Home <span class="sr-only">(current)</span></a>
+            <p  class="nav-link" href="" onclick="display('sectionevents')">Events</p>
+            <a class="nav-link" href="#" onclick="display('sectionAboutUs')">About Us</a>
+          </div>
+      </div>
+    </nav>
+   <section class="events_section">
+        <div class="events_1">
+            <h1 class="Event_head_1"> Events</h1>
+            <p class="Event_para_1">Join our exciting workshops, hackathons, and coding challenges. Learn, compete, and connect with fellow developers.</p>
+        </div>
+    </section>
+    <section class="Upcoming_events">
+        <div class="In_Upcoming_events">
+            <h1 class="Upcoming_Events_1">Upcoming Events </h1>
+             <section class="Upcoming_Events_section d-flex flex-row justify-content-center">
+                    <div class="Card_of_Upcoming_Events_1">
+                        <h1 class="head_for_Upcoming_Events_card">HackNight 2024</h1>
+                        <p class="Upcoming_event_Dates"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwLWljb24gbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwIj48cGF0aCBkPSJtMTQgMTggNC00IDQgNCIvPjxwYXRoIGQ9Ik0xNiAydjQiLz48cGF0aCBkPSJNMTggMjJ2LTgiLz48cGF0aCBkPSJNMjEgMTEuMzQzVjZhMiAyIDAgMCAwLTItMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmg5Ii8+PHBhdGggZD0iTTMgMTBoMTgiLz48cGF0aCBkPSJNOCAydjQiLz48L3N2Zz4=" class="img_upcoming_calender"> March 15-16, 2024</p>
+                        <p class="Upcoming_event_Time"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrLWljb24gbHVjaWRlLWNsb2NrIj48cGF0aCBkPSJNMTIgNnY2bDQgMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+"  class="img_upcoming_time"> 6:00 PM - 8:00 AM </p>
+                        <p class="Upcoming_event_place"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW4taWNvbiBsdWNpZGUtbWFwLXBpbiI+PHBhdGggZD0iTTIwIDEwYzAgNC45OTMtNS41MzkgMTAuMTkzLTcuMzk5IDExLjc5OWExIDEgMCAwIDEtMS4yMDIgMEM5LjUzOSAyMC4xOTMgNCAxNC45OTMgNCAxMGE4IDggMCAwIDEgMTYgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48L3N2Zz4=" class="img_upcoming_place">Computer Science Building</p>
+                        <p class="para_for_end_cards">24-hour hackathon where teams compete to build innovative solutions. Amazing prizes and networking opportunities await!</p>
+                        <div class="button_of_registration">
+                            <button class="register_now_btn ">Register Now</button>
+                        </div>
+                    </div>
+                    <div class="Card_of_Upcoming_Events_1">
+                        <h1 class="head_for_Upcoming_Events_card">Web Development Workshop</h1>
+                         <p class="Upcoming_event_Dates"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwLWljb24gbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwIj48cGF0aCBkPSJtMTQgMTggNC00IDQgNCIvPjxwYXRoIGQ9Ik0xNiAydjQiLz48cGF0aCBkPSJNMTggMjJ2LTgiLz48cGF0aCBkPSJNMjEgMTEuMzQzVjZhMiAyIDAgMCAwLTItMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmg5Ii8+PHBhdGggZD0iTTMgMTBoMTgiLz48cGF0aCBkPSJNOCAydjQiLz48L3N2Zz4=" class="img_upcoming_calender"> March 22, 2024</p>
+                        <p class="Upcoming_event_Time"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrLWljb24gbHVjaWRlLWNsb2NrIj48cGF0aCBkPSJNMTIgNnY2bDQgMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+" class="img_upcoming_time"> 4:00 PM - 7:00 PM </p>
+                        <p class="Upcoming_event_place"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW4taWNvbiBsdWNpZGUtbWFwLXBpbiI+PHBhdGggZD0iTTIwIDEwYzAgNC45OTMtNS41MzkgMTAuMTkzLTcuMzk5IDExLjc5OWExIDEgMCAwIDEtMS4yMDIgMEM5LjUzOSAyMC4xOTMgNCAxNC45OTMgNCAxMGE4IDggMCAwIDEgMTYgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48L3N2Zz4=" class="img_upcoming_place">Lab 201</p>
+                        <p class="para_for_end_cards">Learn modern web development with React, TypeScript, and Tailwind CSS. Build a complete project from scratch.</p>
+                        <div class="button_of_registration">
+                            <button class="register_now_btn ">Register Now</button>
+                        </div>
+                    </div>
+                    <div class="Card_of_Upcoming_Events_1">
+                        <h1 class="head_for_Upcoming_Events_card">Coding Contest #5</h1>
+                         <p class="Upcoming_event_Dates"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwLWljb24gbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwIj48cGF0aCBkPSJtMTQgMTggNC00IDQgNCIvPjxwYXRoIGQ9Ik0xNiAydjQiLz48cGF0aCBkPSJNMTggMjJ2LTgiLz48cGF0aCBkPSJNMjEgMTEuMzQzVjZhMiAyIDAgMCAwLTItMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmg5Ii8+PHBhdGggZD0iTTMgMTBoMTgiLz48cGF0aCBkPSJNOCAydjQiLz48L3N2Zz4=" class="img_upcoming_calender"> March 29, 2024</p>
+                        <p class="Upcoming_event_Time"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrLWljb24gbHVjaWRlLWNsb2NrIj48cGF0aCBkPSJNMTIgNnY2bDQgMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+" class="img_upcoming_time"> 5:00 PM - 8:00 PM </p>
+                        <p class="Upcoming_event_place"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW4taWNvbiBsdWNpZGUtbWFwLXBpbiI+PHBhdGggZD0iTTIwIDEwYzAgNC45OTMtNS41MzkgMTAuMTkzLTcuMzk5IDExLjc5OWExIDEgMCAwIDEtMS4yMDIgMEM5LjUzOSAyMC4xOTMgNCAxNC45OTMgNCAxMGE4IDggMCAwIDEgMTYgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48L3N2Zz4=" class="img_upcoming_place">Online (Codeforces)</p>
+                        <p class="para_for_end_cards">Monthly coding competition featuring algorithmic challenges. Test your problem-solving skills and win exciting prizes.</p>
+                        <div class="button_of_registration">
+                            <button class="register_now_btn">Register Now</button>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </section>
+    <section class="Past_events">
+        <div class="In_Upcoming_events">
+            <h1 class="Upcoming_Events_1">Past Events </h1>
+             <section class="Upcoming_Events_section d-flex flex-row justify-content-center">
+                    <div class="Card_of_Upcoming_Events_1">
+                        <h1 class="head_for_Upcoming_Events_card">AI/ML Workshop Series</h1>
+                        <p class="Upcoming_event_Dates"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwLWljb24gbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwIj48cGF0aCBkPSJtMTQgMTggNC00IDQgNCIvPjxwYXRoIGQ9Ik0xNiAydjQiLz48cGF0aCBkPSJNMTggMjJ2LTgiLz48cGF0aCBkPSJNMjEgMTEuMzQzVjZhMiAyIDAgMCAwLTItMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmg5Ii8+PHBhdGggZD0iTTMgMTBoMTgiLz48cGF0aCBkPSJNOCAydjQiLz48L3N2Zz4=" class="img_upcoming_calender"> February 10-12, 2024</p>
+                        <p class="Upcoming_event_Time"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrLWljb24gbHVjaWRlLWNsb2NrIj48cGF0aCBkPSJNMTIgNnY2bDQgMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+"  class="img_upcoming_time"> 3:00 PM - 6:00 PM
+</p>
+                        <p class="Upcoming_event_place"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW4taWNvbiBsdWNpZGUtbWFwLXBpbiI+PHBhdGggZD0iTTIwIDEwYzAgNC45OTMtNS41MzkgMTAuMTkzLTcuMzk5IDExLjc5OWExIDEgMCAwIDEtMS4yMDIgMEM5LjUzOSAyMC4xOTMgNCAxNC45OTMgNCAxMGE4IDggMCAwIDEgMTYgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48L3N2Zz4=" class="img_upcoming_place">CS Lab 101</p>
+                        <p class="para_for_end_cards">Three-day intensive workshop covering machine learning fundamentals, neural networks, and practical AI applications.</p>
+                        <div class="button_of_registration">
+                            <button class="register_now_btn ">Veiw Details</button>
+                        </div>
+                    </div>
+                    <div class="Card_of_Upcoming_Events_1">
+                        <h1 class="head_for_Upcoming_Events_card">Winter Hackathon 2024</h1>
+                         <p class="Upcoming_event_Dates"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwLWljb24gbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwIj48cGF0aCBkPSJtMTQgMTggNC00IDQgNCIvPjxwYXRoIGQ9Ik0xNiAydjQiLz48cGF0aCBkPSJNMTggMjJ2LTgiLz48cGF0aCBkPSJNMjEgMTEuMzQzVjZhMiAyIDAgMCAwLTItMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmg5Ii8+PHBhdGggZD0iTTMgMTBoMTgiLz48cGF0aCBkPSJNOCAydjQiLz48L3N2Zz4=" class="img_upcoming_calender">January 20-21, 2024</p>
+                        <p class="Upcoming_event_Time"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrLWljb24gbHVjaWRlLWNsb2NrIj48cGF0aCBkPSJNMTIgNnY2bDQgMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+" class="img_upcoming_time"> 9:00 AM - 9:00 AM
+ </p>
+                        <p class="Upcoming_event_place"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW4taWNvbiBsdWNpZGUtbWFwLXBpbiI+PHBhdGggZD0iTTIwIDEwYzAgNC45OTMtNS41MzkgMTAuMTkzLTcuMzk5IDExLjc5OWExIDEgMCAwIDEtMS4yMDIgMEM5LjUzOSAyMC4xOTMgNCAxNC45OTMgNCAxMGE4IDggMCAwIDEgMTYgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48L3N2Zz4=" class="img_upcoming_place">Main Auditorium</p>
+                        <p class="para_for_end_cards">Two-day hackathon focused on building sustainable tech solutions. 50+ teams participated with amazing projects.</p>
+                        <div class="button_of_registration">
+                            <button class="register_now_btn ">Veiw Details</button>
+                        </div>
+                    </div>
+                    <div class="Card_of_Upcoming_Events_1">
+                        <h1 class="head_for_Upcoming_Events_card">Git & GitHub Masterclass</h1>
+                         <p class="Upcoming_event_Dates"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwLWljb24gbHVjaWRlLWNhbGVuZGFyLWFycm93LXVwIj48cGF0aCBkPSJtMTQgMTggNC00IDQgNCIvPjxwYXRoIGQ9Ik0xNiAydjQiLz48cGF0aCBkPSJNMTggMjJ2LTgiLz48cGF0aCBkPSJNMjEgMTEuMzQzVjZhMiAyIDAgMCAwLTItMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmg5Ii8+PHBhdGggZD0iTTMgMTBoMTgiLz48cGF0aCBkPSJNOCAydjQiLz48L3N2Zz4=" class="img_upcoming_calender"> January 15, 2024</p>
+                        <p class="Upcoming_event_Time"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrLWljb24gbHVjaWRlLWNsb2NrIj48cGF0aCBkPSJNMTIgNnY2bDQgMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+" class="img_upcoming_time"> 4:00 PM - 6:00 PM</p>
+                        <p class="Upcoming_event_place"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1hcC1waW4taWNvbiBsdWNpZGUtbWFwLXBpbiI+PHBhdGggZD0iTTIwIDEwYzAgNC45OTMtNS41MzkgMTAuMTkzLTcuMzk5IDExLjc5OWExIDEgMCAwIDEtMS4yMDIgMEM5LjUzOSAyMC4xOTMgNCAxNC45OTMgNCAxMGE4IDggMCAwIDEgMTYgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz48L3N2Zz4=" class="img_upcoming_place">Online</p>
+                        <p class="para_for_end_cards">Comprehensive session on version control, collaboration workflows, and best practices for using Git and GitHub.</p>
+                        <div class="button_of_registration">
+                            <button class="register_now_btn">Veiw Details</button>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </section>
+     <footer class="footer">
+            <p>&copy; 2024 CSE Coding Club. All rights reserved.</p>
+    </footer>
+</div>  
+<div id="sectionAboutUs">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" id="Nav_head"  href="#">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvZGUteG1sLWljb24gbHVjaWRlLWNvZGUteG1sIj48cGF0aCBkPSJtMTggMTYgNC00LTQtNCIvPjxwYXRoIGQ9Im02IDgtNCA0IDQgNCIvPjxwYXRoIGQ9Im0xNC41IDQtNSAxNiIvPjwvc3ZnPg==" class="img1" > CSE Coding Club</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link " href="" onclick="display('sectionMain_Div)">Home <span class="sr-only">(current)</span></a>
+            <p  class="nav-link" href="" onclick="display('sectionevents')">Events</p>
+            <a class="nav-link" href="#" onclick="display('sectionAboutUs')">About Us</a>
+          </div>
+      </div>
+    </nav>
+    <section class="About_us">
+        <div class="About_us_section">
+            <h1 class="About_us_head"> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXVzZXJzLWljb24gbHVjaWRlLXVzZXJzIj48cGF0aCBkPSJNMTYgMjF2LTJhNCA0IDAgMCAwLTQtNEg2YTQgNCAwIDAgMC00IDR2MiIvPjxwYXRoIGQ9Ik0xNiAzLjEyOGE0IDQgMCAwIDEgMCA3Ljc0NCIvPjxwYXRoIGQ9Ik0yMiAyMXYtMmE0IDQgMCAwIDAtMy0zLjg3Ii8+PGNpcmNsZSBjeD0iOSIgY3k9IjciIHI9IjQiLz48L3N2Zz4=" class="About_us_img"> About Us</h1>
+            <div class="About_us_para_container">
+                <p class="para_for_end_cards_in_about_us">CSE Coding Club is dedicated to fostering a vibrant coding community. We organize events, workshops, and hackathons to help members enhance their skills and connect with like-minded individuals.
+                    The Coding Club is a collaborative community dedicated to helping students strengthen their programming skills and explore the world of technology. We focus on practical learning, teamwork, and real-world problem-solving to ensure every member grows with confidence.
+                    Our mission is to create an environment where learners at all levels can access guidance, share ideas, and build meaningful projects. Through workshops, coding sessions, competitions, and mentorship, we aim to bridge the gap between theory and hands-on experience.
+                    We are committed to continuous learning, innovation, and supporting each member’s path toward academic and career success in the tech industry. Whether you are a beginner or an experienced programmer, the Coding Club offers opportunities to learn, contribute, and grow together.
+            </p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+            <p>&copy; 2024 CSE Coding Club. All rights reserved.</p>
+    </footer>
+</div>
+
+<script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>   
+    </body>
+</html>
