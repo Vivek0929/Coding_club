@@ -1,0 +1,82 @@
+.Card_of_Upcoming_Events_1 {
+    margin: 15px;
+    height: 360px;
+    width: 420px;
+    border: solid;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(97, 128, 132, 0.697);
+    border-width: 1px;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card_of_Upcoming_Events_1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(230, 233, 248, 0.697);
+}
+
+.head_for_Upcoming_Events_card {
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+.img_upcoming_calender,
+.img_upcoming_time,
+.img_upcoming_place {
+    height: 18px;
+    width: 18px;
+    margin: 0 5px 0 15px;
+    vertical-align: middle;
+}
+
+.Upcoming_event_Dates,
+.Upcoming_event_Time,
+.Upcoming_event_place {
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.para_for_end_cards {
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #0000009c;
+    margin: 10px 0;
+    flex-grow: 1;
+}
+
+.button_of_registration {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.register_now_btn {
+    background-color: #dffaf9;
+    color: #042936;
+    border-radius: 18px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 220ms ease, transform 160ms ease, box-shadow 220ms ease;
+    width: 90%;
+    max-width: 360px;
+    text-align: center;
+}
+
+.register_now_btn:hover {
+    background: linear-gradient(90deg, #00e4d0, #00f0e8);
+    color: #002b33;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 200, 180, 0.18);
+}

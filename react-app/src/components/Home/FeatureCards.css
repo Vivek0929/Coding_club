@@ -1,0 +1,77 @@
+.Mid_container {
+    background-color: #d1e7fe;
+    padding: 20px;
+    min-height: auto;
+    width: 100%;
+}
+
+.About_us_div {
+    text-align: center;
+    padding: 50px;
+    margin: 60px;
+}
+
+.About_us_div h1 {
+    font-family: "roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.About_us_div p {
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.Card_s {
+    margin: 40px 35px 70px 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.Card_s .card_1 {
+    min-height: 260px;
+}
+
+.card_1 {
+    height: 250px;
+    width: 320px;
+    border-color: #ffffff;
+    margin: 15px;
+    border-radius: 25px;
+    background-color: rgb(232, 240, 246);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card_1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(153, 166, 241, 0.697);
+}
+
+.Img_s {
+    padding: 20px 0;
+    height: 50px;
+    width: 50px;
+}
+
+.Heading_card_1 {
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    padding-left: 0;
+    margin: 0;
+}
+
+.card_para {
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    padding-left: 0;
+    color: #0000009c;
+    margin-top: 10px;
+}

@@ -1,0 +1,39 @@
+.div_last {
+    text-align: center;
+    min-height: auto;
+    background-color: #d9e6f5;
+    padding: 60px 0;
+    font-family: "roboto", sans-serif;
+    width: 100%;
+}
+
+.Heading_last {
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 36px;
+    color: #000;
+}
+
+.para_last {
+    font-size: 20px;
+    color: #000000b3;
+    margin: 30px 0;
+    line-height: 1.5;
+}
+
+.div_last button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.div_last button:hover {
+    background-color: #0056b3;
+}

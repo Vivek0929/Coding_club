@@ -1,0 +1,9 @@
+.footer {
+    padding: 20px 30px 10px 40px;
+    background-color: rgb(255, 255, 255);
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: rgb(61, 59, 59);
+    text-align: center;
+    width: 100%;
+}
